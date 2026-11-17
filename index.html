@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Restaurant – Cuisine de Saison &amp; Table Contemporaine</title>
+    <meta
+      name="description"
+      lang="fr"
+      content="Découvrez Bella Restaurant : cuisine contemporaine de saison, entrées, plats principaux, desserts maison et demande de réservation pour déjeuner ou dîner."
+    />
+    <meta
+      name="description"
+      lang="en"
+      content="Discover Bella Restaurant: contemporary seasonal dining, homemade starters, main courses, desserts, gallery, and online table request simulation."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bella Restaurant" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta
+      property="og:title"
+      content="Bella Restaurant – Cuisine de Saison & Table Contemporaine"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez Bella Restaurant : cuisine contemporaine de saison, entrées, plats principaux, desserts maison et demande de réservation pour déjeuner ou dîner."
+    />
+    <meta
+      property="og:image"
+      content="/src/assets/images/hero_bella_interior_1794923509399.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Salle principale du Bella Restaurant avec arches en pierre beige et luminaires dorés"
+    />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Bella Restaurant – Cuisine de Saison & Table Contemporaine"
+    />
+    <meta
+      name="twitter:description"
+      content="Découvrez Bella Restaurant : cuisine contemporaine de saison, entrées, plats principaux, desserts maison et demande de réservation pour déjeuner ou dîner."
+    />
+    <meta
+      name="twitter:image"
+      content="/src/assets/images/hero_bella_interior_1794923509399.jpg"
+    />
+
+    <!-- Schema.org Restaurant Structured Data (Strictly Fictional Demonstration Data) -->
+    <script type="application/ld+json" id="restaurant-jsonld">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Bella Restaurant (Site de démonstration)",
+        "alternateName": "Bella Restaurant Demo",
+        "description": "Site vitrine de démonstration pour l'entreprise fictive Bella Restaurant : cuisine contemporaine de saison, entrées, plats principaux et desserts faits maison. Toutes les coordonnées ci-dessous sont fictives.",
+        "servesCuisine": [
+          "Cuisine contemporaine",
+          "Cuisine méditerranéenne",
+          "Cuisine de saison"
+        ],
+        "priceRange": "€€€",
+        "acceptsReservations": "True",
+        "image": "/src/assets/images/hero_bella_interior_1794923509399.jpg",
+        "telephone": "+33 1 00 00 00 00",
+        "email": "contact@bella-restaurant-demo.fr",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "42 Avenue de l'Exemple (Adresse fictive)",
+          "addressLocality": "Ville-Démo",
+          "postalCode": "75000",
+          "addressCountry": "FR"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "12:00",
+            "closes": "14:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "19:00",
+            "closes": "22:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "12:00",
+            "closes": "15:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "19:00",
+            "closes": "23:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "12:00",
+            "closes": "15:30"
+          }
+        ],
+        "hasMenu": {
+          "@type": "Menu",
+          "name": "Carte de saison (Démonstration)",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Entrées",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Burrata Crémeuse & Figues Rôties",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "16",
+                    "priceCurrency": "EUR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Carpaccio de Dorade aux Agrumes",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "19",
+                    "priceCurrency": "EUR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Plats principaux",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Risotto Doré au Safran & Truffe Noire",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "29",
+                    "priceCurrency": "EUR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Médaillons de Filet de Bœuf & Mousseline",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "36",
+                    "priceCurrency": "EUR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Filet de Bar Sauvage & Beurre Blanc",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "33",
+                    "priceCurrency": "EUR"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Desserts",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Tartelette Chocolat Noir & Praliné Noisette",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "14",
+                    "priceCurrency": "EUR"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Panna Cotta Vanille & Poire Pochée",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "12",
+                    "priceCurrency": "EUR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="google-site-verification" content="Y-hFFbo6BhKAqnRtViQxGONNIha2bUWutyse8gmPcc4" />
+  </head>
+  <body class="bg-[#F6F1E9] text-[#141210] antialiased selection:bg-[#C69C4E]/25 selection:text-[#141210]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

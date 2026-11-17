@@ -1,0 +1,8 @@
+{
+  "name": "Bella Restaurant",
+  "description": "Site web vitrine professionnel pour Bella Restaurant : présentation de la maison, carte gastronomique, galerie photos, formulaire de demande de réservation et coordonnées de démonstration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
